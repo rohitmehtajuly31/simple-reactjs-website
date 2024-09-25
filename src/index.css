@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Change to column for vertical layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items out */
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1; /* Grow to take available space */
+  background-color: #f0f0f0; /* Placeholder background color */
+  height: 150px; /* Placeholder height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph-container {
+  flex: 2; /* Grow to take available space */
+  padding: 20px;
+}
