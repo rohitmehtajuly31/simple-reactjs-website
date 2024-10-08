@@ -33,6 +33,7 @@ const Footer = () => {
 
 const styles = {
   footer: {
+    
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

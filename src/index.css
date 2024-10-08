@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  font-size: larger;
+  font-size: 50px;
+  font-weight: 900;
+}
+p{
+  font-size: 16px;
+  line-height: 28px;
+}
+
 .container {
   display: flex;
   flex-direction: row; /* Change to column for vertical layout */

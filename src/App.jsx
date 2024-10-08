@@ -4,6 +4,9 @@ import Header from './component/Header';
 import Home from './component/home';
 import Services from './component/Services';
 import About from './component/about';
+import './index.css';
+import Integration from './component/Integration';
+import Inter from './component/Inter';
 
 // Main App component
 const App = () => {
@@ -35,6 +38,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: 'integration',
+        element: <Integration />,
+        
+      },
+      {
         path: 'about',
         element: <About />,
       },
@@ -42,6 +50,10 @@ const router = createBrowserRouter([
         path: 'services',
         element: <Services />,
       },
+      {
+        path: 'inter',
+        element: <Inter />,
+      }
     ],
   },
 ]);
